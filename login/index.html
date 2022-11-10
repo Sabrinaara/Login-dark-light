@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"  href="/estilo.css">
+    <title> Formulário de login</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login-form" >
+            <div id="form_header">
+                <h1>login</h1>
+                <i id= 'mode_icon'class="fa-solid fa-moon" ></i>
+
+            </div>
+            <div id="social_media">
+                <a href="#">
+                    <img src="/img/facebook (1).png" alt="Facebook">
+                </a>
+
+                <a href="#">
+                    <img src="/img/google.png" alt="Google">
+                </a>
+
+                <a href="#">
+                    <img src="/img/github.png" alt="GitHub">
+                </a>
+
+            </div>
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Name 
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text"  id-="name" name="name" required>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="email">
+                        E-mail 
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email"  id-="email" name="email" required>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="Password">
+                        Password 
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password"  id-="Password" name="Password" required>
+                        </div>
+                    </label>
+                    <div id="forgot_password">
+                        <A href="#">
+                            Forgot your password?
+                        </A>
+                    </div>
+                </div>
+            </div>
+
+
+            <button type="submit" id="login_button">
+                Login
+            </button>
+
+        </form>
+    </main>
+    <script src="/index.js"></script>
+</body>
+</html>
